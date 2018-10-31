@@ -11,3 +11,5 @@ x =d[3:]
 for c in x:
     w +=str(c)
 print(int(y)*60 + int(w))
+#converts "mm:ss"
+#minutes and seconds into seconds only.
