@@ -1,0 +1,2 @@
+finger = {'Thumb': 1, 'Index Finger': 2, 'Middle Finger': 3, 'Ring Finger': 4, 'Little Finger': 5}
+	if x < 6: return list(finger.keys())[list(finger.values()).index(x)]
