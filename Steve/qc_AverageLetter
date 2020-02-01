@@ -1,0 +1,8 @@
+# Gets the average ascii value of each letter in a string and returns the letter
+# which is the average of all other letters in a string
+# E.g. ABC returns B
+
+my_string = input()
+
+a = sum([ord(i.lower())-96 for i in my_string])
+print(chr(a//len(my_string)+96).upper())
